@@ -1,8 +1,8 @@
-# chingsley.github.io
+# https://chingsley.github.io/
 PixelArtMaker project
 
 Link to github page:
-# chingsley.github.io
+# https://chingsley.github.io/
 
 Link to github repository
 # https://github.com/chingsley/chingsley.github.io
