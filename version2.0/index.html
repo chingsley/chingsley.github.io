@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+   <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+    
+</head>
+<body>
+        
+    <!-- ======================ENTER VALUES TO SET GRID DIMENSIONS=================================== -->
+    <h1>
+        Lab: Pixel Art Maker
+        <hr style='border:1px solid #950000;'/>
+    </h1>
+    <div class="cont_1a">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="grid_setting">
+                Grid Height
+                <input type="number" id="inputHeight" name="height" min="1" value="15"/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Grid Width
+                <input type="number" id="inputWidth" name="width" min="1" value="55"/>
+                <input type="button" id ="submit_form" value="submit" />
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="color-setting">
+                    <span>Background color</span>
+                    <input type="color" id="bg_colorPicker" value="#C0C0C0"/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span>Drawing color</span>
+                    <input type="color" id="colorPicker"/>
+                </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div id="link_div">
+                    <a href="https://github.com/chingsley/chingsley.github.io/blob/master/README.md"><span class="link">ReadMe</span></a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://github.com/chingsley/chingsley.github.io"><span class="link">Github Repo</span></a>
+            </div>      
+    </div>
+    <hr style="border: 0.5px solid silver; margin-left:10px; margin-right:10px;"/>
+    <div class="first_div">
+       
+        <div class="cont_1">
+            <div class="cont_1b">
+              <!-- ======================TABLE POSITION=================================== -->
+                <h2>Design Canvas</h2>
+                <table id="pixelCanvas">
+                    
+                </table>   
+            </div>
+        </div>
+    
+    </div>
+    
+  <script src="designs.js"></script>
+
+  
+
+</body>
+</html>

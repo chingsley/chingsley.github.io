@@ -73,36 +73,26 @@ input[type=number] {
     display: flex;
     color: #E2E2E2;
     border: 1px solid black;
+    
 }
 .cont_1b{
     border: 1px solid black;
     margin: 10px;
     text-align: bottom center;
     padding: 10px;
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 20px #FF8282;
    
 }
 
-.link_div{
-    font-weight: 10px;  
-    font-family: arial, helvetica, sans-serif;
-    font-size: 18px;
+#link_div{
+    font-weight: 5px;
     
 }
 .link{
-    color: #00FFFF;
-    text-decoration: underline; 
+    color: #FF8282;
+    text-decoration: underline;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 19px;
 }
-
-#version_link{
-    padding-left: 100px;
-}
-#readMe_link{
-    padding-left: 700px;
-}
-#repo-link{
-    padding-left: 700px;
-}
-
 
 
