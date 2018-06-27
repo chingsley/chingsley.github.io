@@ -16,12 +16,12 @@ h1 {
 }
 
 h2 {
-    margin: 1em 0 0.25em;
+   margin: 1em 0 0.25em;
     
 }
 
 h2:first-of-type {
-    margin-top: 0.5em;
+   margin-top: 0.5em;
 }
 
 table,
@@ -50,23 +50,9 @@ input[type=number] {
     width: 6em;
 }
 
-.first_div{
-    position: relative;
-    color: silver;
-}
-
-.cont_1 {
-    display: flex;
-    margin: auto;
-    padding:10px;
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translate(-50%, 8%);
-}
 
 .cont_1a {
-    margin: 10px;
+    margin: auto;
     padding: 10px;
     background-color: #1E1E1E;
     border-radius: 5px;
@@ -76,17 +62,22 @@ input[type=number] {
     
 }
 .cont_1b{
-    border: 1px solid black;
-    margin: 10px;
-    text-align: bottom center;
-    padding: 10px;
-    box-shadow: 0 0 20px #FF8282;
-   
+    margin: auto;
+    display: flex;
+}
+
+.grid_height, .grid_width, .background_color, .drawing_color, #link_div, .submit{
+    margin-left: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #link_div{
     font-weight: 5px;
-    
+    text-align: bottom center;
+    font-family: arial, helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
 }
 .link{
     color: #FF8282;
@@ -94,5 +85,35 @@ input[type=number] {
     font-family: arial, helvetica, sans-serif;
     font-size: 19px;
 }
+#grid_height, #grid_width, #background_color, #drawing_color, #submit{
+    display: block;
+}
+
+#submit{
+    margin-bottom: 7px;
+}
+#submit_form{
+    height: 25px;
+    margin-top: 10px;
+}
+
+.canvas_and_table_div{
+   position: relative;
+    color: silver;
+}
+#design_canvas{
+    margin-bottom: 0px;
+}
+.table_div{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 20px #FF8282;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%, 18%);
+}
+
 
 
