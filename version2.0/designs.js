@@ -27,7 +27,7 @@
 }
 
 {// SET BACKGROUND COLOR
-    let bg_color = $('#bg_colorPicker').val();
+    var bg_color = $('#bg_colorPicker').val();
     $('#bg_colorPicker').change(function(){
         bg_color = $(this).val();
         $('#pixelCanvas').css('background-color', bg_color);

@@ -31,21 +31,9 @@
     $('#bg_colorPicker').change(function(){
         bg_color = $(this).val();
         $('#pixelCanvas').css('background-color', bg_color);
-        $('.cell').css('background-color', bg_color);
     }); 
 }
 
-{//RGB TO HEX CONVERSION FUCNTIONS
-    function component_to_hex(c){
-        var hex = c.toString(16);
-        return hex.length == 1 ? "0" + hex: hex;
-    }
-    function rgb_to_hex(r, g, b){
-        return "#"+ component_to_hex(r) + component_to_hex(g) + component_to_hex(b);
-    }
-    console.log(rgb_to_hex(0, 51, 255));
-    
-}
 
 
 {// APPLY COLOR TO CELL WHEN CLICKED

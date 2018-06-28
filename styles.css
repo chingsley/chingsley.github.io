@@ -28,7 +28,6 @@ table,
 tr,
 td {
     border: 1px solid black;
-    background-color: #c0c0c0;
 }
 #pixelCanvas{
     background-color: silver;
