@@ -38,12 +38,18 @@
 
 {// APPLY COLOR TO CELL WHEN CLICKED
     $('#pixelCanvas').on('click','.cell',function(evt){
-        $(evt.target).css('background-color', color);
-        console.log($(this).css('background-color'));
-        
-      
+        if($(this).attr('style')){
+            $(this).removeAttr('style');
+        }else{
+            $(evt.target).css('background-color', color);
+        }   
     });
 }
+
+$('#pixelCanvas').on('drag','.cell', function(evt){
+    
+    
+})
 
 {// DEFAULT CANVAS SIZE ON PAGE LOAD
     $("document").ready(function(){

@@ -37,8 +37,11 @@
 
 {// APPLY COLOR TO CELL WHEN CLICKED
     $( '#pixelCanvas' ).on( 'click', '.cell', function( evt ) {
-        $( evt.target ).css( 'background-color', color );
-        console.log( $( evt.target ).css( 'background-color', color ));
+        if($(this).attr('style')){
+            $(this).removeAttr('style');
+        }else{
+            $(evt.target).css('background-color', color);
+        } 
     });
 }
 
