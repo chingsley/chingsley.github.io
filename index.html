@@ -28,39 +28,38 @@
         </div>      
     </div>
     <hr style="border: 0.5px solid silver; margin-left:10px; margin-right:10px;"/>
-    <div class="first_div">
        
-            <div class="cont_1">
-                <div class="cont_1b">
-                    <h2>Choose Grid Size</h2>
-                    <form id="sizePicker">
-                        Grid Height:
-                        <input type="number" id="inputHeight" name="height" min="1" value="7"/>
-                        Grid Width:
-                        <input type="number" id="inputWidth" name="width" min="1" value="55"/>
-                        <input type="button" id ="submit_form" value="submit" /> 
-                    </form>
+    <div class="cont_1">
+        <div class="cont_1b">
+            <h2>Choose Grid Size</h2>
+            <form id="sizePicker">
+                Grid Height:
+                <input type="number" id="inputHeight" name="height" min="1" value="7"/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Grid Width:
+                <input type="number" id="inputWidth" name="width" min="1" value="55"/>
+                <input type="button" id ="submit_form" value="submit" /> 
+            </form>
 
-                    <!-- ======================CHOOSE A COLOR FOR DRAWING OR TO SET THE BACKGROUND COLOR================ -->
-                    <h2>Pick A Color</h2>
-                    <div class="pick_a_color">
-                        <span>Background color</span>
-                        <input type="color" id="bg_colorPicker" value="#C0C0C0"/>
-                        &nbsp;&nbsp;&nbsp;
-                        <span>Drawing color</span>
-                        <input type="color" id="colorPicker"/>
-                    </div>
+            <!-- ======================CHOOSE A COLOR FOR DRAWING OR TO SET THE BACKGROUND COLOR================ -->
+            <h2>Pick A Color</h2>
+            <div class="pick_a_color">
+                <span>Background color</span>
+                <input type="color" id="bg_colorPicker" value="#C0C0C0"/>
+                &nbsp;&nbsp;&nbsp;
+                <span>Drawing color</span>
+                <input type="color" id="colorPicker"/>
+            </div>  
+        </div>
+    </div>
+
+    <div id="table_div">
+        <!-- ======================TABLE POSITION=================================== -->
                 
-
-                    <!-- ======================TABLE POSITION=================================== -->
-                    
-                    <h2 >Design Canvas</h2>
-                    <table id="pixelCanvas">
-                        
-                    </table>   
-                </div>
-            </div>
-    
+        <h2 >Design Canvas</h2>
+        <table id="pixelCanvas">
+            
+        </table> 
     </div>
     
   <script src="designs.js"></script>

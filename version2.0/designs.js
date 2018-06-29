@@ -18,6 +18,14 @@
     });
 }//ENDS "DRAW THE CANVAS"
   
+{// CHANGE BACKGROUND COLOR OF INPUT ELEMENTS WHEN THEY HAVE THE FOCUS
+    $('input').focus(function(){
+        $(this).css('background', 'pink');
+    });
+    $('input').blur(function(){
+        $(this).css('background', 'white');
+    })
+}
 
 {// SELECTS DRAWING COLOR FROM THE COLOR PICKER
     var color = $('#colorPicker').val();

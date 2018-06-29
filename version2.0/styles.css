@@ -98,21 +98,17 @@ input[type=number] {
 }
 
 .canvas_and_table_div{
-   position: relative;
     color: silver;
+    margin: auto;
+    /*border: 1px solid white;*/     /*uncomment this line to see the current size of this*/
+    /*width: 1400px;*/ /*uncomment this line to set the size of this div*/
 }
-#design_canvas{
-    margin-bottom: 0px;
-}
+
 .table_div{
     border: 1px solid black;
-    padding: 10px;
-    box-shadow: 0 0 20px #FF8282;
+    width: 1300px;
     margin: auto;
-    position: absolute;
-    left: 50%;
-    top: -50%;
-    transform: translate(-50%, 18%);
+    box-shadow: 0 0 10px;
 }
 
 

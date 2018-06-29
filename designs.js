@@ -18,6 +18,14 @@
     });
 }//ENDS "DRAW THE CANVAS"
   
+{// CHANGE BACKGROUND COLOR OF INPUT ELEMENTS WHEN THEY HAVE THE FOCUS
+    $('input').focus(function(){
+        $(this).css('background', 'pink');
+    });
+    $('input').blur(function(){
+        $(this).css('background', 'white');
+    })
+}
 
 {// SELECTS DRAWING COLOR FROM THE COLOR PICKER
     var color = $('#colorPicker').val();
@@ -46,22 +54,10 @@
     });
 }
 
-$('#pixelCanvas').on('drag','.cell', function(evt){
-    
-    
-})
-
 {// DEFAULT CANVAS SIZE ON PAGE LOAD
     $("document").ready(function(){
         $("#submit_form").trigger('click');
     });
 }
 
-
-/**
- * ================ FUNCTION TO STUDY =======================
- * var rgb = $(this).css('background-color');
-        var cell_hex_color = '#' + rgb.substr(4, rgb.indexOf(')') - 4).split(',').map((color) => parseInt(color).toString(16)).join('');
-       
- */
 
