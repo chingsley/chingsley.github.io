@@ -1,1 +1,0 @@
-https://github.com/chingsley/chingsley.github.io/blob/master/README.md
